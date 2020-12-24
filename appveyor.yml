@@ -4,6 +4,6 @@ cache:
     - packages -> **\packages.config
 before_build: nuget restore
 build:
-    project: AppVeyorExample.csproj
+    project: AppVeyorExample\AppVeyorExample.csproj
     publish_wap: true
  
